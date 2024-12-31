@@ -1,0 +1,115 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.bg-img1 {
+  position: relative;
+  background-image: url(images/img1.jpeg);
+  min-height: 100%;
+}
+
+.bg-img2 {
+  position: relative;
+  background-image: url(images/img2.jpeg);
+  min-height: 400px;
+}
+
+.bg-img3 {
+  position: relative;
+  background-image: url(images/img3.jpeg);
+  min-height: 400px;
+}
+
+.bg-img1,
+.bg-img2,
+.bg-img3 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.bg-text {
+  background-color: #313534;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 0.5em;
+}
+
+.section1,
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.section1,
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+#sec {
+  color: black;
+}
+#para {
+  color: black;
+}
+.ptext2 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.bg-text2 {
+  color: white;
+  font-size: 50px;
+}
+
+.section2 {
+  background-color: #313534;
+}
+.section2,
+h1 {
+  margin-top: 0;
+  padding-top: 5px;
+}
+.section2,
+p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.ptext3 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.bg-text3 {
+  color: white;
+  font-size: 50px;
+}
+.section3 {
+  background-color: #313534;
+}
+#sec3 {
+  color: aliceblue;
+}
