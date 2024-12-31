@@ -14,4 +14,6 @@ git commit -m "first commit"
 
 git remote add origin https://github.com/Masood-dev175/My-Projects.git
 
+git branch -M main
+
 git push -u origin master 
